@@ -1,0 +1,27 @@
+// Mixin para las media queries
+@mixin respond-to($device) {
+  $breakpoint: map-get($breakpoints, $device);
+  
+  @if $breakpoint {
+    @media (min-width: $breakpoint) {
+      @content;
+    }
+  } @else {
+    @warn "El dispositivo '#{$device}' no está definido en el mapa de breakpoints.";
+  }
+}
+
+// Flex center between
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  // Flex column gap (reutilizable)
+  @mixin flex-column($gap: 1rem) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+  }
+  

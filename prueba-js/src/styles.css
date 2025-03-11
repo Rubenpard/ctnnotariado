@@ -3,6 +3,11 @@ body {
     font-size: 16px;
     background-image: linear-gradient(to bottom right, white, #bad5f1);
   }
+
+  #app{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   
   .concat-container {
     padding: 1.6rem;
@@ -10,6 +15,7 @@ body {
     border-radius: 0.8rem;
     margin-bottom: 1.6rem;
   }
+  
   span {
     font-size: 1.6rem;
     color: #f5a524;

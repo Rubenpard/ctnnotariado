@@ -11,14 +11,22 @@
     "apellido2": "martin",
     "edad": 18
   },
-  { "nombre": "franCiSco", "apellido": "Núñez", "apellido2": null, "edad": 54 },
+  { "nombre": "franCiSco", 
+  "apellido": "Núñez", 
+  "apellido2": null, 
+  "edad": 54 
+  },
   {
     "nombre": "alberT",
     "apellido": "Morón",
     "apellido2": "EsquErra",
     "edad": 29
   },
-  { "nombre": "johAn", "apellido": "Mason", "apellido2": "", "edad": 32 },
+  { "nombre": "johAn", 
+  "apellido": "Mason", 
+  "apellido2": "", 
+  "edad": 32 
+},
   {
     "nombre": "loRena",
     "apellido": "CasteLl",
@@ -43,5 +51,9 @@
     "apellido2": "VendreLL",
     "edad": 59
   },
-  { "nombre": "belÉn", "apellido": "pastores", "apellido2": null, "edad": 36 }
+  { "nombre": "belÉn", 
+    "apellido": "pastores", 
+    "apellido2": null, 
+    "edad": 36 
+}
 ]
